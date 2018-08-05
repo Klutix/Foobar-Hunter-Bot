@@ -82,7 +82,7 @@ def Search():
             print('    Next search in ' + str(sleepTime) + " seconds...")
             time.sleep(sleepTime)
 #--------------------------------------------------------------------------                  
-#------Find the FooBar            
+#------Find the FooBar-- solve the foobar            
 Search()
                  
 
