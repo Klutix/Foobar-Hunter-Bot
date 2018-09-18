@@ -10,7 +10,7 @@ How it works:
   FHB runs by running a single instance web crawler that examines each page to see if it contains the foobar challenge. If a match is found an alarm will sound
 and the option to either continue and add page to false postive list or turn off bot will appear.(both will kill sound you will be experiencing). If match is not found the bot simply does another search and repeats the process.
   -note The delays between searches are manditory becuase nature of the foobars appearance.
-  -note This will bot run in the background. So you are free to care about your business once its in motion.
+  -note This bot will run in the background. So you are free to care about your business once its in motion.
 
 How to run the bot:
   1. Make sure you have the requirements installed. Edit the line below in foobar.py
