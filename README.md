@@ -13,9 +13,15 @@ and the option to either continue and add page to false postive list or turn off
   -note This bot will run in the background. So you are free to care about your business once its in motion.
 
 How to run the bot:
-  1. Make sure you have the requirements installed. Edit the line below in foobar.py
-chromedriver = "C:/Users/kiren/Desktop/Foobar-Hunter-Bot-master/chromedriver.exe" and fix the path to the driver location in bot directory.
--note if you need different version can be found online. http://chromedriver.chromium.org/downloads
+  1. Make sure you have the requirements installed. 
+  
+  Edit the line below in foobar.py
+  
+  chromedriver = "C:/Users/kiren/Desktop/Foobar-Hunter-Bot-master/chromedriver.exe" 
+
+  and fix the path to the driver location in bot directory.
+
+  -note if you need different version can be found online. http://chromedriver.chromium.org/downloads
 
 2. Run the script.
   If there are no errors you should see chrome appear and the bot will do its work. Feedback on search should be in output.
