@@ -25,6 +25,12 @@ How to run the bot:
 
 2. Run the script.
   If there are no errors you should see chrome appear and the bot will do its work. Feedback on search should be in output.
+  
+  
+  
+  
+!!!!!!WARNING!!!!!
+  if you find the foobar do not close the driver until you have logged in your google acount.
 
 
 
