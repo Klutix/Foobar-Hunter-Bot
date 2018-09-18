@@ -12,3 +12,7 @@ def GeneratePhrase(KeywordQuanity):
     for i in range(0,KeywordQuanity):
         phrase += random.choice(KeywordsB)+ " "
     return phrase
+
+def get_from_winning_list():
+    key_words = ["mutex lock","headless chrome","array list java","mutual exclusion","angular javascript directive","python command line arguments"]
+    return random.choice(key_words)
