@@ -3,18 +3,16 @@ A python application designed to crawl and hunt for googles foobar challenge
 Requirements:
 - Minimum python 3.5
 - Windows for winbeep(has not been tested with Linux or OSX
-- You will need selenium, PIL, and web Colors installed. Can all be installed via pip.
+- You will need selenium, PIL, and WebColors installed. Can all be installed via pip.
   
 How it works:
-  FHB runs by running a single instance web crawler that examines each page to see if it contains the foobar challenge. If a match is found alarm will sound
-and the option to either continue and add page to false postive list or close browser. If match is not found the bot simply does another search and repeats the process.
-
-  -note The delays are manditory becuase nature of the foobars appearance.
+  FHB runs by running a single instance web crawler that examines each page to see if it contains the foobar challenge. If a match is found an alarm will sound
+and the option to either continue and add page to false postive list or turn off bot will appear.(both will kill sound you will be experiencing). If match is not found the bot simply does another search and repeats the process.
+  -note The delays between searches are manditory becuase nature of the foobars appearance.
   -note This will bot run in the background. So you are free to care about your business once its in motion.
 
-
 How to run the bot:
-  1. Make sure you have the requirements installed. Edit the line
+  1. Make sure you have the requirements installed. Edit the line below in foobar.py
 chromedriver = "C:/Users/kiren/Desktop/Foobar-Hunter-Bot-master/chromedriver.exe" and fix the path to the driver location in bot directory.
 -note if you need different version can be found online. http://chromedriver.chromium.org/downloads
 
