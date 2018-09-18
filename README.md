@@ -1,5 +1,6 @@
 # Foobar-Hunter-Bot
-A python application designed to crawl and hunt for googles foobar challenge
+A python application designed to crawl and hunt for Googles Foobar challenge.
+
 Requirements:
 - Minimum python 3.5
 - Windows for winbeep(has not been tested with Linux or OSX
