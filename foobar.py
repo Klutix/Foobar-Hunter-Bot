@@ -1,11 +1,11 @@
 import time
 import os
 import random
-from PIL import Image
 import winsound
 from random import randint
 from threading import Thread
 from selenium import webdriver
+from PIL import Image
 #from twilio.rest import Client
 from selenium.webdriver.chrome.options import Options
 from ProgrammingTerms import *
@@ -74,7 +74,7 @@ def Search():
             elif Input.upper() == "FPQ":
                   AddToFalsePositiveList(phrase)
                   print('SEARCH CRITERIA: '+ phrase + 'Added to FPList.txt')
-                  driver.quit()
+                  sys.exit()
                   return 0
             else:
                   break

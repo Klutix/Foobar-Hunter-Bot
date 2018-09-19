@@ -36,18 +36,18 @@ class ImageProcessor(object):
 
         if Color == self.red and not self.redBool:
             self.redBool   = True
-            #print("..red")    #uncomment for debug
+            print("..red")    #uncomment for debug
         elif Color == self.yellow and not self.yellBool:
             self.yellBool  = True
-            #print("..yellow") #uncomment for debug
+            print("..yellow") #uncomment for debug
         elif Color == self.blue and not self.blueBool:
             self.blueBool  = True
-            #print("..blue")   #uncomment for debug
+            print("..blue")   #uncomment for debug
         elif Color == self.black and not self.blackBool:
-            #print("..black")  #uncomment for debug
+            print("..black")  #uncomment for debug
             self.blackBool = True
         elif Color == self.grey and not self.greyBool:
-            #print("..grey")   #uncomment for debug
+            print("..grey")   #uncomment for debug
             self.greyBool  = True
             
         
