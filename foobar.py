@@ -64,7 +64,7 @@ def Search():
             print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ")
             print("_____________________________________________________")
             print("Press FPC to add to FALSE POSITIVE LIST and Continue")
-            print("Press FPQ to add to FALSE POSITIVE LIST and Quit & Close Browser")
+            print("Press FPQ to Close the app.")
             Input = input()
             if Input.upper() == "FPC":
                   AddToFalsePositiveList(phrase)
@@ -75,7 +75,6 @@ def Search():
                   AddToFalsePositiveList(phrase)
                   print('SEARCH CRITERIA: '+ phrase + 'Added to FPList.txt')
                   sys.exit()
-                  return 0
             else:
                   break
         else:
