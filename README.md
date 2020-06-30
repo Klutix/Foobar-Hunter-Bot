@@ -6,10 +6,6 @@ Requirements:
 - Windows for winbeep(has not been tested with Linux or OSX)
 - You will need selenium, PIL, and WebColors installed. Can all be installed via pip.
   
-How it works:
-  FHB runs by examining an image of the browser that runs keyword search to see if it contains the foobar challenge. If a match is found an alarm will sound and the options will appear to either continue and add the page to false postive list or to turn off bot.(both will kill sound you will be experiencing). If match is not found the bot simply does another search and repeats the process.
-  -note The delays between searches are manditory becuase nature of the foobars appearance.
-  -note This bot will run in the background. So you are free to care about your business once its in motion.
 
 How to run the bot:
   1. Make sure you have the requirements installed. 
